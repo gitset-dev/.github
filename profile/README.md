@@ -9,7 +9,7 @@
 
 <div align="center">
     <h3>
-        <a href="https://github.com/gitset-dev/gitset-cli" target="_blank">
+        <a href="https://gitset.dev" target="_blank">
             GitSet.dev - Smart AI Docs & Versioning for GitHub Repositories.
         </a>
     </h3>
