@@ -4,11 +4,11 @@
   </a>
 
   <h3>
-    <a href="https://gitset.dev" target="_blank">Gitset — Open Source GitHub Tooling, Your AI</a>
+    <a href="https://gitset.dev" target="_blank">Gitset — Draft. Refine. Ship.</a>
   </h3>
 
   <p>
-    <a href="https://gitset.dev"><img src="https://img.shields.io/badge/launch-June%201st%2C%202026-8EF0EE?style=flat-square" alt="launch" /></a>
+    <a href="https://gitset.dev"><img src="https://img.shields.io/badge/launch-July%207%2C%202026-8EF0EE?style=flat-square" alt="launch" /></a>
     <img src="https://img.shields.io/badge/model-BYOAI-white?style=flat-square" alt="byoai" />
     <img src="https://img.shields.io/badge/license-MPL%202.0-blue?style=flat-square" alt="license" />
   </p>
@@ -18,30 +18,32 @@
 
 ### About
 
-**Gitset** is a suite of AI-assisted tools for everything around your code on GitHub — docs, issues, pull requests, releases. Every tool drafts a first pass; you refine it in plain language until it ships.
+**Gitset** is an open-source toolkit for everything around your code on GitHub: commit messages, issues, pull requests, release notes, READMEs, labels, and repository upkeep. Every tool drafts from your repository's real context; you refine the draft in plain language until it ships.
 
-No subscription tiers. No token metering. No AI vendor lock-in. Bring your own key. Use it on the web or in your terminal. Inspect every line.
+Bring your own AI key — Anthropic, OpenAI, Gemini, or any compatible endpoint. No subscriptions. No token metering. No AI vendor lock-in. Web and terminal. Inspect every line.
 
-### The Suite
+### The toolkit
 
-**Web** — [`gitset-dev/gitset`](https://github.com/gitset-dev/gitset)
+**Web** — [gitset.dev](https://gitset.dev)
 
-- **README Generator** — full documentation drafts, refined until they read right
-- **Issues Crafter** — structured, context-aware issue descriptions
-- **PR Maker** — branch comparison, AI-written bodies, reviewers, labels, merge
-- **Tags & Releases Manager** — releases with AI-drafted notes tied to real changes
+- **Issue Crafter** — one sentence in, a complete, labeled GitHub issue out
+- **PR Maker** — descriptions from your branch diff, published when you approve
+- **Release Manager** — release notes drafted from your actual commit range
+- **README Generator** — documentation drafted from your code, refined until it reads right
+- **Label Pack** — define your label set once, apply it to any repository
+- **Backup Automator** — scheduled mirror backups that run inside *your* GitHub
+- **Repo Profiler** — description and topics drafted from your code
 - **Gitignore Builder** — stack-aware `.gitignore`
-- **Repo Profiler** — AI-generated `description`, `website`, and `topics`
-- **Backup Automator** — scheduled repository backups
 
-**Templating** — Issues Crafter, PR Maker, README Generator, Tags & Releases Manager, and Gitignore Builder support custom templates. Define your format once, reuse everywhere.
+**Templates** — every generator accepts your own format: define it once, and every draft follows it. A curated library (Conventional Commits, Keep a Changelog, gitmoji, and more) never overwrites your saved templates.
 
-<img src="https://raw.githubusercontent.com/gitset-dev/gitset/main/public/cli/favicon-48.png" height="20" align="center" /> **CLI** — standalone command-line companion
+<img src="https://raw.githubusercontent.com/gitset-dev/gitset/main/public/cli/favicon-48.png" height="20" align="center" /> **CLI** — the same tools, in your terminal. Runs entirely on your machine: no account, no telemetry, your keys in `~/.gitset`, your code going to your provider and nowhere else.
 
-- `gitset commit` — AI commit messages *(CLI only)*
-- `gitset gitignore` · `gitset release` · `gitset repo` · `gitset labelspack` · `gitset dependabot-resolver`
+```sh
+npm install -g @gitset-dev/cli
+```
 
-> Distribution details coming with the June 1st launch.
+> Repositories go public at launch, under MPL-2.0.
 
 ### Deprecated
 
@@ -50,11 +52,11 @@ Gitset MCP · Desktop app · Code Decommenter · Dependencies Handler · Token p
 Existing subscriptions have been refunded. Leftover token credits roll over as free usage.
 
 ### Links
- 
-[Waitlist](https://gitset.dev) · [Support](mailto:support@gitset.dev)
+
+[gitset.dev](https://gitset.dev) · [Support](mailto:support@gitset.dev)
 
 ---
 
 <div align="center">
-  <sub>Launching June 1st, 2026</sub>
+  <sub>Draft. Refine. Ship. — launching July 7, 2026</sub>
 </div>
