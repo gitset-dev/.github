@@ -34,6 +34,7 @@ Bring your own AI key — Anthropic, OpenAI, Gemini, or any compatible endpoint.
 - **Backup Automator** — scheduled mirror backups that run inside *your* GitHub
 - **Repo Profiler** — description and topics drafted from your code
 - **Gitignore Builder** — stack-aware `.gitignore`
+- **Knowledge Mapper** — an agent-ready map of your codebase, tracked for drift
 
 **Templates** — every generator accepts your own format: define it once, and every draft follows it. A curated library (Conventional Commits, Keep a Changelog, gitmoji, and more) never overwrites your saved templates.
 
