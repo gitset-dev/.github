@@ -10,7 +10,7 @@
   <p>
     <a href="https://gitset.dev"><img src="https://img.shields.io/badge/launch-July%207%2C%202026-8EF0EE?style=flat-square" alt="launch" /></a>
     <img src="https://img.shields.io/badge/model-BYOAI-white?style=flat-square" alt="byoai" />
-    <img src="https://img.shields.io/badge/license-MPL%202.0-blue?style=flat-square" alt="license" />
+    <img src="https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square" alt="license" />
   </p>
 </div>
 
@@ -44,7 +44,7 @@ Bring your own AI key — Anthropic, OpenAI, Gemini, or any compatible endpoint.
 npm install -g @gitset-dev/cli
 ```
 
-> Repositories go public at launch, under MPL-2.0.
+> Repositories go public at launch, under Apache-2.0.
 
 ### Deprecated
 
