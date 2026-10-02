@@ -12,6 +12,10 @@
     <img src="https://img.shields.io/badge/model-BYOAI-white?style=flat-square" alt="byoai" />
     <img src="https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square" alt="license" />
   </p>
+
+  <a href="https://gitset.dev" target="_blank">
+    <img src="https://ivanluna.dev/images/assets/gitset-preview.webp" alt="Gitset web app — home page" width="600" />
+  </a>
 </div>
 
 <hr>
